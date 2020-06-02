@@ -12,6 +12,9 @@ class TestLunh(unittest.TestCase):
 	def test_zero(self):
 		self.assertFalse(self.lunh.checksum(0), "Zero number accepted")
 
+	def test_nan(self):
+		self.assertFalse(self.lunh.checksum("abc"), "Not a number")
+
 	def test_negative_number(self):
 		self.assertFalse(self.lunh.checksum(-1), "Negative number accepted")
 
