@@ -1,0 +1,38 @@
+body {
+	font-family: monospace;
+	color: white;
+}
+
+p {
+	font-size: 20px;
+}
+
+.center {
+	text-align: center;
+	padding: 10px;
+}
+
+* {
+	background-color: #515151;
+}
+
+input {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0px;
+	font-size: 15px;
+	text-align: center;
+	font-family: monospace;
+	background-color: #F8DF04;
+	box-sizing: border-box;
+}
+
+input[type=text] {
+	background-color: #3F3F3F;
+	border-color: #F8DF04;
+	color: white;
+}
+
+#message {
+	color: blue;
+}
